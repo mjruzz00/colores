@@ -1,0 +1,50 @@
+<html>
+    <head>
+    	<meta charset="utf-8">
+    	<title>Colores</title>
+    	<link href="icono_tec.png"rel="shortcut icon"type="image/png">
+    	<link href="efectos02.css"rel="stylesheet"type="text/css">
+    	<script src="colore2.js" type="text/JavaScript"></script>
+    </head>
+    <body><center>
+    	<p class="titulo24">Cambiar propiedades de los colores</p>
+    	<br>
+    	<table border="3" width="60%">
+    	<form name="f_colores">
+    		<tr align="center">
+    			<td><p><b>Color de Fondo</b></p></td>
+    			<td><p><b>Color de Texto</b></p></td>
+    			<td><p><b>Resultado</b></p></td>
+    		</tr>
+    		<tr align="center">
+    		    <td align="center">
+                    <select name="c_fondo" class="campo">
+                        <option value="1">Rojo</option>
+                        <option value="2">Amarillo</option>
+                        <option value="3">Verde</option>
+                        <option value="4">Azul</option>
+                        <option value="5">Morado</option>
+                    </select>
+                </td>
+                <td align="center">
+                    <select name="c_texto" class="campo">
+                        <option value="1">Negro</option>
+                        <option value="2">Blanco</option>
+                        <option value="3">Gris</option>
+                        <option value="4">Cafe</option>
+                        <option value="5">Vino</option>
+    		    </td>
+    		    <td>
+    		    	<textarea name="res" class="campo" cols="10" rows="10">Este es el resultado de tu selección
+    		    	</textarea>
+    		    </td>
+    		</tr>
+    		<tr align="center">
+    			<td colspan="3">
+    				<input name="b_ejecuta" type="button" class="boton" value="Ejecutar" onclick="ejecutar(10)">
+    			</td>
+    		</tr>
+    	</form>
+    </table>
+</center></body>
+</html>
